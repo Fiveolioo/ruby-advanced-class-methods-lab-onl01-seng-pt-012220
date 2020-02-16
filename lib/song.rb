@@ -28,4 +28,8 @@ class Song
      @@all << create_name
      create_name
   end
+  
+  def self.find_by_name(song)
+    puts "hello #{song}"
+  end
 end
