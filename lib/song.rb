@@ -63,4 +63,5 @@ class Song
   
   def self.create_from_filename(song)
     puts "Hello #{song}"
+  end
 end
