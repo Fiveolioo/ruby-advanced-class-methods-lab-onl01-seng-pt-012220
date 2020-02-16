@@ -26,5 +26,6 @@ class Song
      create_name = self.new
      create_name.name = creates
      @@all << create_name
+     create_name
   end
 end
