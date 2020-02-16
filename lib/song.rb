@@ -29,7 +29,7 @@ class Song
      create_name
   end
   
-  def self.find_by_name
-    self
+  def self.find_by_name(song)
+    song
   end
 end
