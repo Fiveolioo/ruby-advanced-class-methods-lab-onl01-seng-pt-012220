@@ -30,7 +30,7 @@ class Song
   end
   
   def self.find_by_name(song)
-    find_song= song
+    self.find_song = song
     find_song
   end
 end
