@@ -30,6 +30,6 @@ class Song
   end
   
   def self.find_by_name(song)
-    song.self.create_by_name
+    all.detect
   end
 end
