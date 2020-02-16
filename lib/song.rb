@@ -53,5 +53,12 @@ class Song
   
   def self.new_from_filename(song)
     puts "Hello #{song}"
+    song_info = song.split(" - ")
+    song_artist = song_info[0]
+    song_name = song_info[1].split(".")[0]
+    new_song = self.new
+    new_song.name = song_name
+    new_song.artist_name = song_artist
+    new_song
   end
 end
