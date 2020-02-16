@@ -45,6 +45,7 @@ class Song
     else
       find_by_name(name)
     end
-    
-end
+  end
+  
+  def
 end
